@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking | Snazzy Paws Grooming</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Snazzy Paws Grooming</a>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon" aria-label="Open navigation menu">☰</label>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="booking.html">Booking</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-banner">
+            <img src="images/page-banner.jpg"
+                alt="Professional dog grooming">
+
+            <div class="page-banner-content">
+                <h1>Booking</h1>
+
+                <p>
+                    Choose a convenient time for your dog's grooming appointment
+                    and let our friendly team take care of the rest.
+                </p>
+            </div>
+        </section>
+
+        <section class="booking-form-section">
+            <div class="container">
+
+                <h2>Book an Appointment</h2>
+
+                <p class="section-intro">
+                    Please provide your details below and we will contact you
+                    to confirm your dog's grooming appointment.
+                </p>
+
+                <form action="#" method="post" class="booking-form">
+
+                    <div class="form-group">
+                        <label for="owner-name">Owner's Name</label>
+                        <input type="text" id="owner-name"
+                            name="owner-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email"
+                            name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dog-name">Dog's Name</label>
+                        <input type="text" id="dog-name"
+                            name="dog-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="breed">Breed</label>
+                        <input type="text" id="breed"
+                            name="breed" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age"
+                            name="age" min="0" required>
+                    </div>
+
+                    <button type="submit" class="button">Submit</button>
+
+                </form>
+
+            </div>
+        </section>
+
+        <section class="booking-banner">
+            <img src="images/booking-banner.jpg"
+                alt="Happy dog ready for grooming">
+
+            <div class="booking-content">
+                <h2>See Our Grooming Results</h2>
+
+                <p>
+                    Take a look at some of our recent grooming work.
+                </p>
+
+                <a href="gallery.html" class="button">View Gallery</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-column">
+                <h3>Snazzy Paws Grooming</h3>
+                <p>
+                    Professional dog grooming<br>
+                    for happy and healthy dogs.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Location</h4>
+                <p>Hamilton, New Zealand</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Opening Hours</h4>
+                <p>
+                    Monday - Saturday<br>
+                    9 am - 5 pm
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Sitemap</h4>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="booking.html">Booking</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="footer-credit">
+            <p>BIT607 Web Development Assessment 2</p>
+            <p>Boram Kim / 5136250</p>
+        </div>
+    </footer>
+
+</body>
+</html>
