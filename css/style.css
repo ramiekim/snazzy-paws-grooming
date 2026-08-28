@@ -774,20 +774,26 @@ footer {
     }
 
 
-    /* Hero */
+  /* Hero */ 
 
-    .hero {
-        height: 550px;
-    }
+.hero { 
+    height: 550px; 
+} 
 
-    .hero-content {
-        left: 20px;
-        width: calc(100% - 40px);
-    }
+.hero-content { 
+    left: 20px; 
+    width: calc(100% - 40px); 
+} 
 
-    .hero-content p {
-        font-size: 16px;
-    }
+.hero-content p { 
+    font-size: 16px; 
+}
+
+/* Reduce hero image size on mobile */
+.hero img {
+    width: 100%;
+    height: auto;
+}
 
 
     /* Page Banner */
